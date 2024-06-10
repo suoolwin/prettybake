@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,300&display=swap');
+
+:root{
+
+
+    --primary-color:rgba(149, 107, 2, 1);
+    --secondary-color:rgba(189, 162, 92, 0.92);
+    --peach-color: rgba(183, 143, 115, 1);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Start Header Section  */
+
+header{
+    height: 100vh;
+    background: linear-gradient(30deg,rgba(0,0,0,0),rgba(0,0,0,0.5)),url(./img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+/* Start Nav Bar  */
+
+.navbar{
+    background: linear-gradient(rgba(0,0,0,0.3),var(--primary-color));
+    padding: 20px 30px;
+
+    transition: all .7s;
+}
+
+.navmenus{
+    background: linear-gradient(rgba(0,0,0,0.6),var(--primary-color));
+    padding: 5px 30px;
+}
+
+.menuitems{
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    transition: color .5s;
+}
+
+.menuitems:hover{
+    color:	#fff;
+}
+
+.lines1,.lines2,.lines3{
+    width: 25px;
+    height: 3px;
+    margin: 6px;
+}
+
+.crossxs .lines1{
+    transform: rotate(-45deg) translate(-6px,6px);
+}
+
+.crossxs .lines2{
+   opacity: 0;
+}
+
+.crossxs .lines1{
+    transform: rotate(45deg) translate(-6px,-6px);
+}
+
+/* End Nav Bar  */
+
+/* Start Banner */
+.banners{
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+.bannerheaders{
+    animation: bnanis 2s;
+}
+
+.bannerparagraphs{
+    animation: bnanis;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+
+    animation-fill-mode: backwards;
+}
+
+@keyframes bnanis{
+    from{
+        tansform: translateY(100px);
+        opacity: 0;
+    }
+
+    to{
+        tansform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* End Banner */
+
+/* End Header Section  */
+
+/* Start Intro Section  */
+
+.texts div{
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+
+    white-space: nowrap;
+}
+
+.texts div:nth-of-type(2){
+    width: 100%;
+}
+
+.texts div h4{
+    color: #fff;
+    line-height: 50px;
+
+    animation-name: textani;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes textani {
+    
+
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+/* End Intro Section  */
+
+/* Start Cookies Section */
+.cookies{
+    background-color: var(--primary-color);
+}
+
+.titles{
+    text-transform: uppercase;
+}
+
+.cookiescards{
+    overflow: hidden;
+}
+
+.cookiescards img{
+    transition: transform .5s;
+}
+
+.cookiescards:hover img{
+    transform: scale(1.1);
+}
+
+.headings{
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.7;
+
+
+}
+/* End Cookies Section  */
