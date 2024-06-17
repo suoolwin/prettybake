@@ -25,6 +25,24 @@ body{
     
 }
 
+/* Start Back To Top  */
+.btn-backtotps{
+    background-color: var(--peach-color);
+    color: #fff;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+
+    z-index: 200;
+}
+
+
+/* End Back To Top  */
+
 /* Start Header Section  */
 
 header{
@@ -180,14 +198,20 @@ header{
 }
 
 .headings{
-    width: 40%;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 1px;
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 10px;
+    /* text-align: center; */
+    /* letter-spacing: 1px; */
     opacity: 0.7;
 
-
 }
+
+
 /* End Cookies Section  */
 
 /* Start Client Section  */
@@ -230,10 +254,21 @@ ul.clientlists{
     margin: 0 auto;
  }
 
+ .links:hover{
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--peach-color);
+ }
+
  .linkeds{
     color: var(--peach-color);
     text-decoration: none;
+    letter-spacing: 1px;
  }
+
+
+
+
 
 
   /* End Footer section */

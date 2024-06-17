@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+    // Start Nav Bar 
     $(window).scroll(function(){
             
         let getscrolltop = $(this).scrollTop();
@@ -13,6 +13,7 @@ $(document).ready(function(){
         }
         
     });
+    // End Nav Bar 
 
      //  Start Footer Section 
 
