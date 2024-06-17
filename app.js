@@ -14,4 +14,12 @@ $(document).ready(function(){
         
     });
 
+     //  Start Footer Section 
+
+     const getyear = document.getElementById("getyear");
+     const getfullyear = new Date().getFullYear();
+     getyear.textContent = getfullyear;
+ 
+     // End Footer Section 
+
 });
