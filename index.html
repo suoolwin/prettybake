@@ -44,11 +44,19 @@
 
                 <div id="nav" class="navbar-collapse collapse justify-content-end text-uppercase fw-bold">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">Delivery</a></li>
-                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">Pickup</a></li>
-                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">Cakedesgin</a></li>
-                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">Cookies</a></li>
-                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">Brownies</a></li>
+                        <div class="dropdown">
+                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">Delivery<i class="fas fa-angle-down px-2"></i></a>
+                                <div class="dropdown-menu">
+                                    <a href="javascript:viod(0);" class="dropdown-item">Home Delivery</a>
+                                    <a href="javascript:viod(0);" class="dropdown-item">Choose Delivery</a>
+                                    <a href="javascript:viod(0);" class="dropdown-item">Delivery For Other</a>
+                                </div>
+                            </li>
+                        </div>
+                        <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">Pickup<i class="fas fa-angle-down px-2"></i></a></li>
+                        <li class="nav-item"><a href="#cakedesgins" class="nav-link mx-2 menuitems">Cakedesgin</a></li>
+                        <li class="nav-item"><a href="#cookiesdesgin" class="nav-link mx-2 menuitems">Cookies</a></li>
+                        <li class="nav-item"><a href="#browinedesgin" class="nav-link mx-2 menuitems">Brownies</a></li>
                         <li class="nav-item"><a href="javascript:void(0);" class="nav-link mx-2 menuitems">contact</a></li>
                     </ul>
                 </div>
@@ -71,14 +79,14 @@
 
 
         <!-- Start Intro Section  -->
-        <section class="intros mb-3">
+        <section class="intros mb-3" id="cakedesgins">
 
             <div class="container-fluid">
 
                 <!-- start title -->
                
                 
-                    <div class="">
+                    <div class="texts">
                         <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>     
                     </div>
  
@@ -200,7 +208,7 @@
 
 
         <!-- Start Services Section  -->
-        <section class="p-4 bestsellers">
+        <section class="p-4 bestsellers" id="browinedesgin">
 
             <div class="container-fluid">
 
@@ -317,7 +325,7 @@
 
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3 p-5">
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3 p-5" id="cookiesdesgin">
 
                         <div class="card border-0 rounded-0 cookiescards">
                             

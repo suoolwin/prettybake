@@ -100,6 +100,12 @@ header{
     transform: rotate(45deg) translate(-6px,-6px);
 }
 
+.dropdown .dropdown-menu a{
+    color: #000;
+    text-align: center;
+    display: block;
+}
+
 /* End Nav Bar  */
 
 /* Start Banner */
@@ -143,35 +149,22 @@ header{
 
 /* Start Intro Section  */
 
-.texts div{
+/* .texts{
     width: 100%;
     height: 100%;
-    background-color: var(--peach-color);
+    background-color: #f4f4f4;
 
-    white-space: nowrap;
-}
+} */
 
-.texts div:nth-of-type(2){
-    width: 100%;
-}
+.texts h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.texts div h4{
-    color: #fff;
-    line-height: 50px;
-
-    animation-name: textani;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes textani {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--peach-color);
     
-
-    100%{
-        transform: translate(-100%);
-    }
 }
 
 /* End Intro Section  */
